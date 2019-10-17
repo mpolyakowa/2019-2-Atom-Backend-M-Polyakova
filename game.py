@@ -38,14 +38,15 @@ class Game:
             (3, 6, 9),
             (1, 5, 9),
             (3, 5, 7)
-            )
+        )
+    def draw_table(self):
+        """Нарисовать поле"""
         self.field = (f"\n-------------\n│ {self.dic[1]} │ {self.dic[2]} | {self.dic[3]} "+
                       f"│\n-------------\n│ {self.dic[4]} │ {self.dic[5]} │ {self.dic[6]}"+
                       f"│\n-------------\n│ {self.dic[7]} │ {self.dic[8]} │ {self.dic[9]}"+
                       f"│\n-------------\n")
-    def draw_table(self):
-        """Нарисовать поле"""
         print(self.field)
+
     def select_field(self):
         """Выбрать клетку, в которую поставить крестик или нолик"""
         print("Select the field")
@@ -58,24 +59,28 @@ class Game:
             print("Field must be int from 1 to 9 and must be vacant")
             return self.select_field()
         return num
+
     def call_first(self, num):
         """Выбор клетки первого игрока"""
         self.dic.update({num : "x"})
         self.step1.append(num)
         self.step1.sort()
         self.draw_table()
+
     def call_second(self, num):
         """Выбор клетки второго игрока"""
         self.dic.update({num : "○"})
         self.step2.append(num)
         self.step2.sort()
         self.draw_table()
+
     def end(self):
         """Проверка, не закончились ли клетки на поле"""
         for _, dic_value in self.dic.items():
             if isint(dic_value):
                 return False
         return True
+
     def game_end(self):
         """Проверка, совпадает ли выбранные игроками клетки набору победителя"""
         for i in self.win:
@@ -94,6 +99,7 @@ class Game:
         if self.end():
             return 0
         return -1
+
     def check_res(self):
         """Проверить кто победил"""
         if self.game_end() == 1:
@@ -106,6 +112,7 @@ class Game:
             print("Draw")
             return "Draw"
         return "Game continues"
+
     def game(self):
         """Старт игры"""
         print("First!")
