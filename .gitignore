@@ -3,3 +3,9 @@ venv/
 *.swo
 *.swp
 
+messenger/messenger/local_settings.py
+messenger/messenger/db_config.py
+messenger/db.sqlite3
+
+__*
+
