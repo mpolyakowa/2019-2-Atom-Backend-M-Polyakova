@@ -1,0 +1,861 @@
+2019/10/30 16:29:27 [notice] 50526#0: using the "kqueue" event method
+2019/10/30 16:29:27 [warn] 50526#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 16:29:27 [notice] 50526#0: nginx/1.17.3
+2019/10/30 16:29:27 [notice] 50526#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2019/10/30 16:29:27 [notice] 50526#0: OS: Darwin 18.5.0
+2019/10/30 16:29:27 [notice] 50526#0: hw.ncpu: 4
+2019/10/30 16:29:27 [notice] 50526#0: net.inet.tcp.sendspace: 131072
+2019/10/30 16:29:27 [notice] 50526#0: kern.ipc.somaxconn: 128
+2019/10/30 16:29:27 [notice] 50526#0: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2019/10/30 16:29:27 [notice] 50527#0: start worker processes
+2019/10/30 16:29:27 [notice] 50527#0: start worker process 50528
+2019/10/30 16:29:40 [emerg] 50531#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 16:29:40 [notice] 50531#0: try again to bind() after 500ms
+2019/10/30 16:29:40 [emerg] 50531#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 16:29:40 [notice] 50531#0: try again to bind() after 500ms
+2019/10/30 16:29:40 [emerg] 50531#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 16:29:40 [notice] 50531#0: try again to bind() after 500ms
+2019/10/30 16:29:40 [emerg] 50531#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 16:29:40 [notice] 50531#0: try again to bind() after 500ms
+2019/10/30 16:29:40 [emerg] 50531#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 16:29:40 [notice] 50531#0: try again to bind() after 500ms
+2019/10/30 16:29:40 [emerg] 50531#0: still could not bind()
+2019/10/30 16:32:22 [notice] 50528#0: signal 15 (SIGTERM) received from 1226, exiting
+2019/10/30 16:32:22 [notice] 50527#0: signal 15 (SIGTERM) received from 1226, exiting
+2019/10/30 16:32:22 [info] 50528#0: kevent() failed (4: Interrupted system call)
+2019/10/30 16:32:22 [notice] 50528#0: exiting
+2019/10/30 16:32:22 [notice] 50528#0: exit
+2019/10/30 16:32:22 [notice] 50527#0: signal 20 (SIGCHLD) received from 50528
+2019/10/30 16:32:22 [notice] 50527#0: worker process 50528 exited with code 0
+2019/10/30 16:32:22 [notice] 50527#0: exit
+2019/10/30 16:32:47 [notice] 50621#0: using the "kqueue" event method
+2019/10/30 16:32:47 [warn] 50621#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 16:32:47 [notice] 50621#0: nginx/1.17.3
+2019/10/30 16:32:47 [notice] 50621#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2019/10/30 16:32:47 [notice] 50621#0: OS: Darwin 18.5.0
+2019/10/30 16:32:47 [notice] 50621#0: hw.ncpu: 4
+2019/10/30 16:32:47 [notice] 50621#0: net.inet.tcp.sendspace: 131072
+2019/10/30 16:32:47 [notice] 50621#0: kern.ipc.somaxconn: 128
+2019/10/30 16:32:47 [notice] 50621#0: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2019/10/30 16:32:47 [notice] 50622#0: start worker processes
+2019/10/30 16:32:47 [notice] 50622#0: start worker process 50623
+2019/10/30 16:34:12 [error] 50623#0: *1 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/30 16:34:39 [info] 50623#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 16:38:07 [info] 50623#0: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 16:38:43 [info] 50623#0: *4 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 16:51:34 [info] 50623#0: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:24:31 [error] 50623#0: *8 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /static HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:24:41 [info] 50623#0: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:25:16 [error] 50623#0: *8 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:25:17 [error] 50623#0: *8 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:26:16 [info] 50623#0: *10 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:27:06 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:06 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:07 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:07 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:07 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:07 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:07 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:53 [info] 50623#0: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:27:53 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:54 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:54 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:27:54 [error] 50623#0: *11 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:28:53 [info] 50623#0: *13 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:43:58 [notice] 50622#0: signal 1 (SIGHUP) received from 87914, reconfiguring
+2019/10/30 17:43:58 [notice] 50622#0: reconfiguring
+2019/10/30 17:43:58 [notice] 50622#0: using the "kqueue" event method
+2019/10/30 17:43:58 [warn] 50622#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 17:43:58 [notice] 50622#0: start worker processes
+2019/10/30 17:43:58 [notice] 50622#0: start worker process 87915
+2019/10/30 17:43:58 [notice] 50622#0: signal 23 (SIGIO) received
+2019/10/30 17:43:58 [notice] 50623#0: gracefully shutting down
+2019/10/30 17:43:58 [notice] 50622#0: signal 23 (SIGIO) received
+2019/10/30 17:43:58 [notice] 50623#0: exiting
+2019/10/30 17:43:58 [notice] 50623#0: exit
+2019/10/30 17:43:58 [notice] 50622#0: signal 20 (SIGCHLD) received from 50623
+2019/10/30 17:43:58 [notice] 50622#0: worker process 50623 exited with code 0
+2019/10/30 17:43:58 [notice] 50622#0: signal 23 (SIGIO) received
+2019/10/30 17:43:58 [notice] 50622#0: signal 23 (SIGIO) received from 87915
+2019/10/30 17:44:05 [error] 87915#0: *14 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:44:06 [error] 87915#0: *14 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:44:07 [error] 87915#0: *14 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:44:07 [error] 87915#0: *14 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:44:11 [error] 87915#0: *14 open() "/www/static/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:44:13 [error] 87915#0: *14 open() "/www/static/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:44:26 [emerg] 87931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 17:44:26 [notice] 87931#0: try again to bind() after 500ms
+2019/10/30 17:44:26 [emerg] 87931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 17:44:26 [notice] 87931#0: try again to bind() after 500ms
+2019/10/30 17:44:26 [emerg] 87931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 17:44:26 [notice] 87931#0: try again to bind() after 500ms
+2019/10/30 17:44:26 [emerg] 87931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 17:44:26 [notice] 87931#0: try again to bind() after 500ms
+2019/10/30 17:44:26 [emerg] 87931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 17:44:26 [notice] 87931#0: try again to bind() after 500ms
+2019/10/30 17:44:26 [emerg] 87931#0: still could not bind()
+2019/10/30 17:44:40 [info] 87915#0: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:45:13 [notice] 50622#0: signal 15 (SIGTERM) received from 87949, exiting
+2019/10/30 17:45:13 [notice] 87915#0: signal 15 (SIGTERM) received from 87949, exiting
+2019/10/30 17:45:13 [info] 87915#0: kevent() failed (4: Interrupted system call)
+2019/10/30 17:45:13 [notice] 87915#0: exiting
+2019/10/30 17:45:13 [notice] 87915#0: exit
+2019/10/30 17:45:13 [notice] 50622#0: signal 20 (SIGCHLD) received from 87915
+2019/10/30 17:45:13 [notice] 50622#0: worker process 87915 exited with code 0
+2019/10/30 17:45:13 [notice] 50622#0: exit
+2019/10/30 17:45:21 [notice] 87957#0: using the "kqueue" event method
+2019/10/30 17:45:21 [warn] 87957#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 17:45:21 [notice] 87957#0: nginx/1.17.3
+2019/10/30 17:45:21 [notice] 87957#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2019/10/30 17:45:21 [notice] 87957#0: OS: Darwin 18.5.0
+2019/10/30 17:45:21 [notice] 87957#0: hw.ncpu: 4
+2019/10/30 17:45:21 [notice] 87957#0: net.inet.tcp.sendspace: 131072
+2019/10/30 17:45:21 [notice] 87957#0: kern.ipc.somaxconn: 128
+2019/10/30 17:45:21 [notice] 87957#0: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2019/10/30 17:45:21 [notice] 87958#0: start worker processes
+2019/10/30 17:45:21 [notice] 87958#0: start worker process 87959
+2019/10/30 17:45:27 [error] 87959#0: *1 open() "/www/static/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:45:29 [error] 87959#0: *1 open() "/www/static/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:45:29 [error] 87959#0: *1 open() "/www/static/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:45:29 [error] 87959#0: *1 open() "/www/static/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:45:30 [error] 87959#0: *1 open() "/www/static/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:45:43 [info] 87959#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:45:43 [error] 87959#0: *1 open() "/www/static/myapp/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myapp/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:45:45 [error] 87959#0: *1 open() "/www/static/myapp/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myapp/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:46:43 [info] 87959#0: *3 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:47:38 [error] 87959#0: *4 open() "/www/static/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:48:38 [info] 87959#0: *5 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:48:47 [notice] 87958#0: signal 1 (SIGHUP) received from 88029, reconfiguring
+2019/10/30 17:48:47 [notice] 87958#0: reconfiguring
+2019/10/30 17:48:47 [notice] 87958#0: using the "kqueue" event method
+2019/10/30 17:48:47 [warn] 87958#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 17:48:47 [notice] 87958#0: start worker processes
+2019/10/30 17:48:47 [notice] 87958#0: start worker process 88030
+2019/10/30 17:48:47 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:48:47 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:48:47 [notice] 87959#0: gracefully shutting down
+2019/10/30 17:48:47 [notice] 87959#0: exiting
+2019/10/30 17:48:47 [notice] 87959#0: exit
+2019/10/30 17:48:47 [notice] 87958#0: signal 20 (SIGCHLD) received from 87959
+2019/10/30 17:48:47 [notice] 87958#0: worker process 87959 exited with code 0
+2019/10/30 17:48:47 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:48:47 [notice] 87958#0: signal 23 (SIGIO) received from 88030
+2019/10/30 17:49:41 [info] 88030#0: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:52:02 [notice] 87958#0: signal 1 (SIGHUP) received from 88102, reconfiguring
+2019/10/30 17:52:02 [notice] 87958#0: reconfiguring
+2019/10/30 17:52:02 [notice] 87958#0: using the "kqueue" event method
+2019/10/30 17:52:02 [warn] 87958#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 17:52:02 [notice] 87958#0: start worker processes
+2019/10/30 17:52:02 [notice] 87958#0: start worker process 88103
+2019/10/30 17:52:02 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:52:02 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:52:02 [notice] 88030#0: gracefully shutting down
+2019/10/30 17:52:02 [notice] 88030#0: exiting
+2019/10/30 17:52:02 [notice] 88030#0: exit
+2019/10/30 17:52:02 [notice] 87958#0: signal 20 (SIGCHLD) received from 88030
+2019/10/30 17:52:02 [notice] 87958#0: worker process 88030 exited with code 0
+2019/10/30 17:52:02 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:52:02 [notice] 87958#0: signal 23 (SIGIO) received from 88103
+2019/10/30 17:52:14 [error] 88103#0: *8 directory index of "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:53:06 [info] 88103#0: *9 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:53:07 [error] 88103#0: *8 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/static/picture.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /static/picture.jpg HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:53:23 [info] 88103#0: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:53:23 [error] 88103#0: *8 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/static/picture.jpeg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /static/picture.jpeg HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:53:48 [info] 88103#0: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:55:18 [notice] 87958#0: signal 1 (SIGHUP) received from 88187, reconfiguring
+2019/10/30 17:55:18 [notice] 87958#0: reconfiguring
+2019/10/30 17:55:18 [notice] 87958#0: using the "kqueue" event method
+2019/10/30 17:55:18 [warn] 87958#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 17:55:18 [notice] 87958#0: start worker processes
+2019/10/30 17:55:18 [notice] 87958#0: start worker process 88188
+2019/10/30 17:55:18 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:55:18 [notice] 88103#0: gracefully shutting down
+2019/10/30 17:55:18 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:55:18 [notice] 88103#0: exiting
+2019/10/30 17:55:18 [notice] 88103#0: exit
+2019/10/30 17:55:18 [notice] 87958#0: signal 20 (SIGCHLD) received from 88103
+2019/10/30 17:55:18 [notice] 87958#0: worker process 88103 exited with code 0
+2019/10/30 17:55:18 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 17:55:18 [notice] 87958#0: signal 23 (SIGIO) received from 88188
+2019/10/30 17:55:21 [error] 88188#0: *12 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/static/picture.jpeg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /static/picture.jpeg HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:55:25 [error] 88188#0: *12 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/picture" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /static/picture HTTP/1.1", host: "127.0.0.1"
+2019/10/30 17:55:32 [info] 88188#0: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 17:56:32 [info] 88188#0: *14 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 18:21:54 [info] 88188#0: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 18:22:28 [info] 88188#0: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 18:22:40 [error] 88188#0: *15 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/static/picture.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /static/picture.jpg HTTP/1.1", host: "127.0.0.1"
+2019/10/30 18:23:40 [info] 88188#0: *18 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 18:26:45 [error] 88188#0: *19 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/static/picture.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /static/picture.jpg HTTP/1.1", host: "127.0.0.1"
+2019/10/30 18:27:13 [info] 88188#0: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 18:42:59 [notice] 87958#0: signal 1 (SIGHUP) received from 88750, reconfiguring
+2019/10/30 18:42:59 [notice] 87958#0: reconfiguring
+2019/10/30 18:42:59 [notice] 87958#0: using the "kqueue" event method
+2019/10/30 18:42:59 [warn] 87958#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 18:42:59 [notice] 87958#0: start worker processes
+2019/10/30 18:42:59 [notice] 87958#0: start worker process 88751
+2019/10/30 18:42:59 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:42:59 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:42:59 [notice] 88188#0: gracefully shutting down
+2019/10/30 18:42:59 [notice] 88188#0: exiting
+2019/10/30 18:42:59 [notice] 88188#0: exit
+2019/10/30 18:42:59 [notice] 87958#0: signal 20 (SIGCHLD) received from 88188
+2019/10/30 18:42:59 [notice] 87958#0: worker process 88188 exited with code 0
+2019/10/30 18:42:59 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:42:59 [notice] 87958#0: signal 23 (SIGIO) received from 88751
+2019/10/30 18:43:38 [error] 88751#0: *21 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:80/", host: "127.0.0.1"
+2019/10/30 18:43:38 [warn] 88751#0: *21 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:80/", host: "127.0.0.1"
+2019/10/30 18:43:38 [alert] 88751#0: *267 socket() failed (24: Too many open files) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", upstream: "http://127.0.0.1:80/", host: "127.0.0.1"
+2019/10/30 18:43:45 [alert] 88751#0: *511 socket() failed (24: Too many open files) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", upstream: "http://127.0.0.1:80/", host: "127.0.0.1"
+2019/10/30 18:44:38 [info] 88751#0: *22 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 18:44:56 [notice] 87958#0: signal 1 (SIGHUP) received from 88795, reconfiguring
+2019/10/30 18:44:56 [notice] 87958#0: reconfiguring
+2019/10/30 18:44:56 [notice] 87958#0: using the "kqueue" event method
+2019/10/30 18:44:56 [warn] 87958#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 18:44:56 [notice] 87958#0: start worker processes
+2019/10/30 18:44:56 [notice] 87958#0: start worker process 88796
+2019/10/30 18:44:56 [notice] 88751#0: gracefully shutting down
+2019/10/30 18:44:56 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:44:56 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:44:56 [notice] 88751#0: exiting
+2019/10/30 18:44:56 [notice] 88751#0: exit
+2019/10/30 18:44:56 [notice] 87958#0: signal 20 (SIGCHLD) received from 88751
+2019/10/30 18:44:56 [notice] 87958#0: worker process 88751 exited with code 0
+2019/10/30 18:44:56 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:44:56 [notice] 87958#0: signal 23 (SIGIO) received from 88796
+2019/10/30 18:45:59 [info] 88796#0: *513 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 18:46:10 [notice] 87958#0: signal 1 (SIGHUP) received from 88825, reconfiguring
+2019/10/30 18:46:10 [notice] 87958#0: reconfiguring
+2019/10/30 18:46:10 [notice] 87958#0: using the "kqueue" event method
+2019/10/30 18:46:10 [warn] 87958#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 18:46:10 [notice] 87958#0: start worker processes
+2019/10/30 18:46:10 [notice] 87958#0: start worker process 88826
+2019/10/30 18:46:11 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:46:11 [notice] 88796#0: gracefully shutting down
+2019/10/30 18:46:11 [notice] 88796#0: exiting
+2019/10/30 18:46:11 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:46:11 [notice] 88796#0: exit
+2019/10/30 18:46:11 [notice] 87958#0: signal 20 (SIGCHLD) received from 88796
+2019/10/30 18:46:11 [notice] 87958#0: worker process 88796 exited with code 0
+2019/10/30 18:46:11 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 18:46:11 [notice] 87958#0: signal 23 (SIGIO) received from 88826
+2019/10/30 18:46:16 [error] 88826#0: *514 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:80/", host: "127.0.0.1"
+2019/10/30 18:46:16 [warn] 88826#0: *514 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:80/", host: "127.0.0.1"
+2019/10/30 18:46:16 [alert] 88826#0: *760 socket() failed (24: Too many open files) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", upstream: "http://127.0.0.1:80/", host: "127.0.0.1"
+2019/10/30 18:47:16 [info] 88826#0: *515 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 19:03:31 [info] 88826#0: *761 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 19:03:31 [info] 88826#0: *762 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 19:13:58 [notice] 87958#0: signal 1 (SIGHUP) received from 89439, reconfiguring
+2019/10/30 19:13:58 [notice] 87958#0: reconfiguring
+2019/10/30 19:13:58 [notice] 87958#0: using the "kqueue" event method
+2019/10/30 19:13:58 [warn] 87958#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 19:13:58 [notice] 87958#0: start worker processes
+2019/10/30 19:13:58 [notice] 87958#0: start worker process 89440
+2019/10/30 19:13:58 [notice] 88826#0: gracefully shutting down
+2019/10/30 19:13:58 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 19:13:58 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 19:13:58 [notice] 88826#0: exiting
+2019/10/30 19:13:58 [notice] 88826#0: exit
+2019/10/30 19:13:58 [notice] 87958#0: signal 20 (SIGCHLD) received from 88826
+2019/10/30 19:13:58 [notice] 87958#0: worker process 88826 exited with code 0
+2019/10/30 19:13:58 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 19:13:58 [notice] 87958#0: signal 23 (SIGIO) received from 89440
+2019/10/30 19:14:16 [info] 89440#0: *764 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 19:14:27 [info] 89440#0: *765 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 19:15:45 [info] 89440#0: *766 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 19:23:39 [info] 89440#0: *768 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 19:24:35 [info] 89440#0: *769 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 19:24:45 [info] 89440#0: *2698 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 19:24:45 [info] 89440#0: *2696 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 19:24:45 [info] 89440#0: *2695 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 19:24:45 [info] 89440#0: *2694 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 19:24:45 [info] 89440#0: *2697 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 19:24:45 [info] 89440#0: *2693 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 19:24:45 [info] 89440#0: *2699 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 19:24:45 [info] 89440#0: *2700 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 19:24:45 [info] 89440#0: *2701 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:08:05 [emerg] 92699#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:08:05 [notice] 92699#0: try again to bind() after 500ms
+2019/10/30 21:08:05 [emerg] 92699#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:08:05 [notice] 92699#0: try again to bind() after 500ms
+2019/10/30 21:08:05 [emerg] 92699#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:08:05 [notice] 92699#0: try again to bind() after 500ms
+2019/10/30 21:08:05 [emerg] 92699#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:08:05 [notice] 92699#0: try again to bind() after 500ms
+2019/10/30 21:08:05 [emerg] 92699#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:08:05 [notice] 92699#0: try again to bind() after 500ms
+2019/10/30 21:08:05 [emerg] 92699#0: still could not bind()
+2019/10/30 21:08:12 [info] 89440#0: *2703 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:08:22 [info] 89440#0: *2704 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:08:58 [info] 89440#0: *2705 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:09:13 [info] 89440#0: *2706 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:10:13 [info] 89440#0: *2707 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:10:44 [info] 89440#0: *2708 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:10:44 [error] 89440#0: *2709 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/wsgi" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /wsgi HTTP/1.1", host: "127.0.0.1"
+2019/10/30 21:11:36 [notice] 87958#0: signal 1 (SIGHUP) received from 92789, reconfiguring
+2019/10/30 21:11:36 [notice] 87958#0: reconfiguring
+2019/10/30 21:11:36 [notice] 87958#0: using the "kqueue" event method
+2019/10/30 21:11:36 [warn] 87958#0: 1024 worker_connections exceed open file resource limit: 256
+2019/10/30 21:11:36 [notice] 87958#0: start worker processes
+2019/10/30 21:11:36 [notice] 87958#0: start worker process 92790
+2019/10/30 21:11:36 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 21:11:36 [notice] 89440#0: gracefully shutting down
+2019/10/30 21:11:36 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 21:11:39 [info] 89440#0: *2710 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:11:39 [notice] 89440#0: exiting
+2019/10/30 21:11:39 [notice] 89440#0: exit
+2019/10/30 21:11:39 [notice] 87958#0: signal 20 (SIGCHLD) received from 89440
+2019/10/30 21:11:39 [notice] 87958#0: worker process 89440 exited with code 0
+2019/10/30 21:11:39 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 21:11:39 [notice] 87958#0: signal 23 (SIGIO) received from 92790
+2019/10/30 21:11:39 [notice] 87958#0: signal 23 (SIGIO) received
+2019/10/30 21:11:39 [error] 92790#0: *2711 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /wsgi/ HTTP/1.1", upstream: "http://[::1]:8000/wsgi/", host: "127.0.0.1"
+2019/10/30 21:11:39 [warn] 92790#0: *2711 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /wsgi/ HTTP/1.1", upstream: "http://[::1]:8000/wsgi/", host: "127.0.0.1"
+2019/10/30 21:12:39 [info] 92790#0: *2712 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:13:00 [info] 92790#0: *2715 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:13:30 [info] 92790#0: *8440 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8234 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8235 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8236 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8237 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8238 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8232 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8239 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8240 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8241 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8242 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8442 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8412 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8389 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8419 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8411 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8396 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8410 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8395 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8394 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8393 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8435 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8382 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8380 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8403 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8402 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8404 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8397 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8399 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8381 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8401 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8375 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8374 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8391 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8418 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8373 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8372 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8369 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8387 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8371 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8424 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8415 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8348 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8367 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8409 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8377 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8398 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8356 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8365 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8390 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8355 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8354 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8353 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8370 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8386 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8352 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8366 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8383 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8363 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8385 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8379 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8428 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8351 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8361 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8426 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8350 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8360 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8376 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8358 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8342 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8340 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8423 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8368 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8349 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8338 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8345 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8333 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8341 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8332 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8339 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8417 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8347 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8388 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8331 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8337 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8364 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8330 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8315 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8329 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8328 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8336 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8327 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8313 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8308 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8300 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8312 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8325 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8344 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8299 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8303 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8324 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8311 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8321 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8301 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8302 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8296 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8310 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8362 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8335 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8295 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8334 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8343 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8323 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8309 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8317 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8359 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8357 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8439 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8298 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8438 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8431 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8448 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8407 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8319 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8447 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8305 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8405 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8433 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8451 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8293 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8408 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8443 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8429 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8437 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8378 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8291 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8290 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8307 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8318 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8316 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8289 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8304 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8292 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8306 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8297 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8288 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8436 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8314 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8346 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8326 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8430 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8294 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8414 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8384 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8450 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8322 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8449 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8406 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8427 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8425 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8320 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8445 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8422 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8420 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8444 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8421 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8434 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8287 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8269 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8266 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8217 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8224 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8215 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8223 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8441 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8214 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8264 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8263 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8392 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8262 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8270 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8261 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8260 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8281 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8257 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8252 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8416 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8286 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8265 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8432 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8226 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8233 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8284 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8268 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8225 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8267 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8271 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8400 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8413 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8446 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8259 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8258 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8228 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8256 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8285 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8255 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8222 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8253 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8283 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8254 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8227 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8249 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8251 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8282 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8248 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8231 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8246 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8229 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8250 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8230 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8245 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8279 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8243 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8247 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8280 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8244 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8221 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8278 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8216 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8277 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8274 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8219 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8220 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8213 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8218 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8276 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8275 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:30 [info] 92790#0: *8272 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:30 [info] 92790#0: *8273 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:38 [info] 92790#0: *8452 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:13:46 [info] 92790#0: *9787 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9791 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9795 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9798 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9801 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9803 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9805 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9808 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9812 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9814 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9816 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9818 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9819 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9820 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9823 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9825 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9827 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9829 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9831 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9832 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9836 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9837 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9839 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9841 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9886 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9880 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9885 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9879 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9877 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9878 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9876 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9875 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9884 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9864 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9883 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9861 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9882 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9857 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9881 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9873 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9854 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9872 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9848 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9871 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9843 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9870 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9840 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9869 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9838 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9868 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9834 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9867 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9833 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9866 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9865 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9863 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9859 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9855 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9852 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9850 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9830 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9846 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9828 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9842 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9821 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9835 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9826 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9824 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9817 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9822 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9815 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9810 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9802 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9807 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9800 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9796 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9797 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9794 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9874 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9862 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9860 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9858 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9856 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9853 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9851 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9849 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9847 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9845 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9844 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9804 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9789 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9793 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9813 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9792 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9811 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9790 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9809 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9788 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9806 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9786 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9799 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9776 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9784 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9785 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9783 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9774 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9782 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9781 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9772 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9780 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9771 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9779 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9770 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9778 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9768 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9777 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9767 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9775 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9766 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9773 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9765 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9769 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9764 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9763 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9749 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9758 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9747 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9757 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9745 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9755 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9746 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9753 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9742 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9752 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9738 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9734 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9733 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9729 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9730 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9727 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9762 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9761 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9760 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9759 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9756 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9754 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9751 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9741 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9750 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9744 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9748 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9743 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9740 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9700 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9739 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9698 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9736 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9696 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9737 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9693 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9735 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9690 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9732 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9694 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9731 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9688 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9728 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9714 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9711 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9713 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9709 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9710 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9708 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9707 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9705 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9704 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9726 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9703 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:13:46 [info] 92790#0: *9725 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9701 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9724 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9699 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9723 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9695 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9721 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9691 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9722 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9689 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9720 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9687 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9719 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9685 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9718 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9684 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9717 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9683 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9716 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9682 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9715 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9681 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9712 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9680 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9706 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9679 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9702 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9686 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9692 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9697 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9678 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9677 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9675 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9673 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9676 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9672 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9671 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9674 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9668 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9670 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9666 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9664 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9669 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9665 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9660 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9667 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9661 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9663 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9662 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9659 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9649 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9656 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9658 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9654 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9655 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9651 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9653 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9648 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9652 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9650 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:46 [info] 92790#0: *9657 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:13:52 [info] 92790#0: *9887 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:14:02 [info] 92790#0: *11746 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:14:02 [info] 92790#0: *11747 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:14:02 [info] 92790#0: *11767 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:14:02 [info] 92790#0: *11744 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:14:02 [info] 92790#0: *11766 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:14:02 [info] 92790#0: *11743 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:14:02 [info] 92790#0: *11765 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:14:02 [info] 92790#0: *11741 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:14:02 [info] 92790#0: *11764 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:14:02 [info] 92790#0: *11763 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:19:55 [emerg] 92967#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:19:55 [notice] 92967#0: try again to bind() after 500ms
+2019/10/30 21:19:55 [emerg] 92967#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:19:55 [notice] 92967#0: try again to bind() after 500ms
+2019/10/30 21:19:55 [emerg] 92967#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:19:55 [notice] 92967#0: try again to bind() after 500ms
+2019/10/30 21:19:55 [emerg] 92967#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:19:55 [notice] 92967#0: try again to bind() after 500ms
+2019/10/30 21:19:55 [emerg] 92967#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/10/30 21:19:55 [notice] 92967#0: try again to bind() after 500ms
+2019/10/30 21:19:55 [emerg] 92967#0: still could not bind()
+2019/10/30 21:21:52 [info] 92790#0: *11768 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:21:52 [info] 92790#0: *11769 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:23:03 [info] 92790#0: *11772 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/10/30 21:23:14 [info] 92790#0: *13751 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:23:14 [info] 92790#0: *13749 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:23:14 [info] 92790#0: *13746 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:23:14 [info] 92790#0: *13748 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:23:14 [info] 92790#0: *13771 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:23:14 [info] 92790#0: *13772 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:23:14 [info] 92790#0: *13744 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:23:14 [info] 92790#0: *13769 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:23:14 [info] 92790#0: *13770 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/10/30 21:23:14 [info] 92790#0: *13768 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/10/30 21:23:20 [info] 92790#0: *11771 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/11/04 20:28:29 [notice] 87958#0: signal 15 (SIGTERM) received from 1, exiting
+2019/11/04 20:28:29 [notice] 92790#0: signal 15 (SIGTERM) received from 1, exiting
+2019/11/04 20:28:29 [info] 92790#0: kevent() failed (4: Interrupted system call)
+2019/11/04 20:28:29 [notice] 92790#0: exiting
+2019/11/04 20:28:29 [notice] 92790#0: exit
+2019/11/04 20:28:29 [notice] 87958#0: signal 20 (SIGCHLD) received from 92790
+2019/11/04 20:28:29 [notice] 87958#0: worker process 92790 exited with code 0
+2019/11/04 20:28:29 [notice] 87958#0: exit
+2019/11/13 12:52:17 [notice] 53609#0: using the "kqueue" event method
+2019/11/13 12:52:17 [warn] 53609#0: 1024 worker_connections exceed open file resource limit: 256
+2019/11/13 12:52:17 [notice] 53609#0: nginx/1.17.3
+2019/11/13 12:52:17 [notice] 53609#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2019/11/13 12:52:17 [notice] 53609#0: OS: Darwin 18.5.0
+2019/11/13 12:52:17 [notice] 53609#0: hw.ncpu: 4
+2019/11/13 12:52:17 [notice] 53609#0: net.inet.tcp.sendspace: 131072
+2019/11/13 12:52:17 [notice] 53609#0: kern.ipc.somaxconn: 128
+2019/11/13 12:52:17 [notice] 53609#0: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2019/11/13 12:52:17 [notice] 53610#0: start worker processes
+2019/11/13 12:52:17 [notice] 53610#0: start worker process 53611
+2019/11/13 18:46:46 [info] 53611#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2019/11/13 19:33:34 [error] 53611#0: *2 open() "/Users/mpolyakowa/2019-2-Atom-Backend-M-Polyakova/sample/nginx/html/static/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/11/13 19:33:34 [info] 53611#0: *2 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2019/11/13 19:33:48 [info] 53611#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/11/15 14:33:26 [info] 53611#0: *4 kevent() reported that client 192.168.1.1 closed keepalive connection
+2019/11/17 10:12:34 [notice] 53610#0: signal 15 (SIGTERM) received from 1, exiting
+2019/11/17 10:12:34 [notice] 53611#0: signal 15 (SIGTERM) received from 1, exiting
+2019/11/17 11:12:34 [info] 53611#0: kevent() failed (4: Interrupted system call)
+2019/11/17 11:12:34 [notice] 53611#0: exiting
+2019/11/17 11:12:34 [notice] 53611#0: exit
+2019/11/17 11:12:34 [notice] 53610#0: signal 20 (SIGCHLD) received from 53611
+2019/11/17 11:12:34 [notice] 53610#0: worker process 53611 exited with code 0
+2019/11/17 11:12:34 [notice] 53610#0: exit
